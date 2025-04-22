@@ -334,6 +334,7 @@ input {
   height: 100vh;
   object-fit: cover;
   object-position: 83%;
+  z-index: -9;
 }
 
 .home__container {
@@ -976,7 +977,7 @@ input {
       margin-bottom: var(--mb-2);
     }
     .discover__container {
-      width: 610px;
+      width: 800px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -1039,7 +1040,7 @@ input {
     width: 237px;
   }
   .discover__container {
-    width: 700px;
+    width: 1000px;
   }
   .discover__data {
     left: 1.5rem;
